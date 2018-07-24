@@ -2,6 +2,35 @@
 # yarn lockfile v1
 
 
+ajv-keywords@^3.0.0:
+  version "3.2.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/ajv-keywords/-/ajv-keywords-3.2.0.tgz#e86b819c602cf8821ad637413698f1dec021847a"
+
+ajv@^6.0.1:
+  version "6.5.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/ajv/-/ajv-6.5.2.tgz#678495f9b82f7cca6be248dd92f59bff5e1f4360"
+  dependencies:
+    fast-deep-equal "^2.0.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.1"
+
+ansi-escapes@^1.0.0, ansi-escapes@^1.1.0:
+  version "1.4.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
+
+ansi-regex@^2.0.0:
+  version "2.1.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
+
+ansi-regex@^3.0.0:
+  version "3.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/ansi-regex/-/ansi-regex-3.0.0.tgz#ed0317c322064f79466c02966bddb605ab37d998"
+
+ansi-styles@^2.2.1:
+  version "2.2.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://nexus.drivenow.com.au/repository/npm/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -16,6 +45,21 @@ args@5.0.0:
     chalk "2.4.1"
     leven "2.1.0"
     mri "1.1.1"
+
+babel-polyfill@^6.3.14:
+  version "6.26.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/babel-polyfill/-/babel-polyfill-6.26.0.tgz#379937abc67d7895970adc621f284cd966cf2153"
+  dependencies:
+    babel-runtime "^6.26.0"
+    core-js "^2.5.0"
+    regenerator-runtime "^0.10.5"
+
+babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -36,7 +80,7 @@ camelcase@5.0.0:
   version "5.0.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/camelcase/-/camelcase-5.0.0.tgz#03295527d58bd3cd4aa75363f35b2e8d97be2f42"
 
-chalk@2.4.1:
+chalk@2.4.1, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.1:
   version "2.4.1"
   resolved "https://nexus.drivenow.com.au/repository/npm/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
   dependencies:
@@ -44,9 +88,62 @@ chalk@2.4.1:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+chalk@^1.0.0, chalk@^1.1.0:
+  version "1.1.3"
+  resolved "https://nexus.drivenow.com.au/repository/npm/chalk/-/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
+  dependencies:
+    ansi-styles "^2.2.1"
+    escape-string-regexp "^1.0.2"
+    has-ansi "^2.0.0"
+    strip-ansi "^3.0.0"
+    supports-color "^2.0.0"
+
+cli-color@0.3.2:
+  version "0.3.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/cli-color/-/cli-color-0.3.2.tgz#75fa5f728c308cc4ac594b05e06cc5d80daccd86"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.2"
+    memoizee "0.3.x"
+    timers-ext "0.1.x"
+
+cli-cursor@^1.0.1, cli-cursor@^1.0.2:
+  version "1.0.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/cli-cursor/-/cli-cursor-1.0.2.tgz#64da3f7d56a54412e59794bd62dc35295e8f2987"
+  dependencies:
+    restore-cursor "^1.0.1"
+
+cli-cursor@^2.1.0:
+  version "2.1.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
+  dependencies:
+    restore-cursor "^2.0.0"
+
+cli-spinners@^1.1.0:
+  version "1.3.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/cli-spinners/-/cli-spinners-1.3.1.tgz#002c1990912d0d59580c93bd36c056de99e4259a"
+
+cli-width@^1.0.1:
+  version "1.1.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/cli-width/-/cli-width-1.1.1.tgz#a4d293ef67ebb7b88d4a4d42c0ccf00c4d1e366d"
+
+clone@^1.0.2:
+  version "1.0.4"
+  resolved "https://nexus.drivenow.com.au/repository/npm/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
+
+clui@0.3.6:
+  version "0.3.6"
+  resolved "https://nexus.drivenow.com.au/repository/npm/clui/-/clui-0.3.6.tgz#8e1e5cea7332a6e54083f59da0ccbe1d6f2fa787"
+  dependencies:
+    cli-color "0.3.2"
+
 cluster-key-slot@^1.0.6:
   version "1.0.12"
   resolved "https://nexus.drivenow.com.au/repository/npm/cluster-key-slot/-/cluster-key-slot-1.0.12.tgz#d5deff2a520717bc98313979b687309b2d368e29"
+
+code-point-at@^1.0.0:
+  version "1.1.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
 color-convert@^1.9.0:
   version "1.9.2"
@@ -62,31 +159,126 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://nexus.drivenow.com.au/repository/npm/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
+core-js@^2.4.0, core-js@^2.5.0:
+  version "2.5.7"
+  resolved "https://nexus.drivenow.com.au/repository/npm/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
+
+d@1:
+  version "1.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/d/-/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
+  dependencies:
+    es5-ext "^0.10.9"
+
+d@~0.1.1:
+  version "0.1.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/d/-/d-0.1.1.tgz#da184c535d18d8ee7ba2aa229b914009fae11309"
+  dependencies:
+    es5-ext "~0.10.2"
+
 debug@^2.6.9:
   version "2.6.9"
   resolved "https://nexus.drivenow.com.au/repository/npm/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
     ms "2.0.0"
 
+defaults@^1.0.3:
+  version "1.0.3"
+  resolved "https://nexus.drivenow.com.au/repository/npm/defaults/-/defaults-1.0.3.tgz#c656051e9817d9ff08ed881477f3fe4019f3ef7d"
+  dependencies:
+    clone "^1.0.2"
+
 denque@^1.1.0:
   version "1.3.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/denque/-/denque-1.3.0.tgz#681092ef44a630246d3f6edb2a199230eae8e76b"
+
+es5-ext@^0.10.35, es5-ext@^0.10.9, es5-ext@~0.10.11, es5-ext@~0.10.14, es5-ext@~0.10.2, es5-ext@~0.10.5, es5-ext@~0.10.6:
+  version "0.10.45"
+  resolved "https://nexus.drivenow.com.au/repository/npm/es5-ext/-/es5-ext-0.10.45.tgz#0bfdf7b473da5919d5adf3bd25ceb754fccc3653"
+  dependencies:
+    es6-iterator "~2.0.3"
+    es6-symbol "~3.1.1"
+    next-tick "1"
 
 es6-error@4.1.1:
   version "4.1.1"
   resolved "https://nexus.drivenow.com.au/repository/npm/es6-error/-/es6-error-4.1.1.tgz#9e3af407459deed47e9a91f9b885a84eb05c561d"
 
-escape-string-regexp@^1.0.5:
+es6-iterator@~0.1.3:
+  version "0.1.3"
+  resolved "https://nexus.drivenow.com.au/repository/npm/es6-iterator/-/es6-iterator-0.1.3.tgz#d6f58b8c4fc413c249b4baa19768f8e4d7c8944e"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.5"
+    es6-symbol "~2.0.1"
+
+es6-iterator@~2.0.3:
+  version "2.0.3"
+  resolved "https://nexus.drivenow.com.au/repository/npm/es6-iterator/-/es6-iterator-2.0.3.tgz#a7de889141a05a94b0854403b2d0a0fbfa98f3b7"
+  dependencies:
+    d "1"
+    es5-ext "^0.10.35"
+    es6-symbol "^3.1.1"
+
+es6-symbol@^3.1.1, es6-symbol@~3.1.1:
+  version "3.1.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/es6-symbol/-/es6-symbol-3.1.1.tgz#bf00ef4fdab6ba1b46ecb7b629b4c7ed5715cc77"
+  dependencies:
+    d "1"
+    es5-ext "~0.10.14"
+
+es6-symbol@~2.0.1:
+  version "2.0.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/es6-symbol/-/es6-symbol-2.0.1.tgz#761b5c67cfd4f1d18afb234f691d678682cb3bf3"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.5"
+
+es6-weak-map@~0.1.4:
+  version "0.1.4"
+  resolved "https://nexus.drivenow.com.au/repository/npm/es6-weak-map/-/es6-weak-map-0.1.4.tgz#706cef9e99aa236ba7766c239c8b9e286ea7d228"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.6"
+    es6-iterator "~0.1.3"
+    es6-symbol "~2.0.1"
+
+escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://nexus.drivenow.com.au/repository/npm/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
+
+event-emitter@~0.3.4:
+  version "0.3.5"
+  resolved "https://nexus.drivenow.com.au/repository/npm/event-emitter/-/event-emitter-0.3.5.tgz#df8c69eef1647923c7157b9ce83840610b02cc39"
+  dependencies:
+    d "1"
+    es5-ext "~0.10.14"
 
 eventemitter2@5.0.1:
   version "5.0.1"
   resolved "https://nexus.drivenow.com.au/repository/npm/eventemitter2/-/eventemitter2-5.0.1.tgz#6197a095d5fb6b57e8942f6fd7eaad63a09c9452"
 
+exit-hook@^1.0.0:
+  version "1.1.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
+
+fast-deep-equal@^2.0.1:
+  version "2.0.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+
+fast-json-stable-stringify@^2.0.0:
+  version "2.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
+
 fastest-validator@0.6.10:
   version "0.6.10"
   resolved "https://nexus.drivenow.com.au/repository/npm/fastest-validator/-/fastest-validator-0.6.10.tgz#1d120c2fa9afd73612911db099ff707c028f8461"
+
+figures@^1.3.5:
+  version "1.7.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/figures/-/figures-1.7.0.tgz#cbe1e3affcf1cd44b80cadfed28dc793a9701d2e"
+  dependencies:
+    escape-string-regexp "^1.0.5"
+    object-assign "^4.1.0"
 
 flexbuffer@0.0.6:
   version "0.0.6"
@@ -107,9 +299,19 @@ glob@7.1.2:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+has-ansi@^2.0.0:
+  version "2.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
+  dependencies:
+    ansi-regex "^2.0.0"
+
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
+
+in-publish@^2.0.0:
+  version "2.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/in-publish/-/in-publish-2.0.0.tgz#e20ff5e3a2afc2690320b6dc552682a9c7fadf51"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -121,6 +323,23 @@ inflight@^1.0.4:
 inherits@2:
   version "2.0.3"
   resolved "https://nexus.drivenow.com.au/repository/npm/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+
+inquirer@0.11.0:
+  version "0.11.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/inquirer/-/inquirer-0.11.0.tgz#7448bfa924092af311d47173bbab990cae2bb027"
+  dependencies:
+    ansi-escapes "^1.1.0"
+    ansi-regex "^2.0.0"
+    chalk "^1.0.0"
+    cli-cursor "^1.0.1"
+    cli-width "^1.0.1"
+    figures "^1.3.5"
+    lodash "^3.3.1"
+    readline2 "^1.0.1"
+    run-async "^0.1.0"
+    rx-lite "^3.1.2"
+    strip-ansi "^3.0.0"
+    through "^2.3.6"
 
 ioredis@^3.2.2:
   version "3.2.2"
@@ -153,6 +372,20 @@ ioredis@^3.2.2:
 ipaddr.js@1.8.0:
   version "1.8.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/ipaddr.js/-/ipaddr.js-1.8.0.tgz#eaa33d6ddd7ace8f7f6fe0c9ca0440e706738b1e"
+
+is-fullwidth-code-point@^1.0.0:
+  version "1.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz#ef9e31386f031a7f0d643af82fde50c457ef00cb"
+  dependencies:
+    number-is-nan "^1.0.0"
+
+is-fullwidth-code-point@^2.0.0:
+  version "2.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
+
+json-schema-traverse@^0.4.1:
+  version "0.4.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
 
 leven@2.1.0:
   version "2.1.0"
@@ -222,15 +455,72 @@ lodash.values@^4.3.0:
   version "4.3.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/lodash.values/-/lodash.values-4.3.0.tgz#a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347"
 
-lodash@4.17.10:
+lodash@4.17.10, lodash@^4.17.4, lodash@^4.5.1:
   version "4.17.10"
   resolved "https://nexus.drivenow.com.au/repository/npm/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+
+lodash@^3.3.1:
+  version "3.10.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+
+log-symbols@^2.2.0:
+  version "2.2.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
+  dependencies:
+    chalk "^2.0.1"
+
+log-update@^1.0.2:
+  version "1.0.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/log-update/-/log-update-1.0.2.tgz#19929f64c4093d2d2e7075a1dad8af59c296b8d1"
+  dependencies:
+    ansi-escapes "^1.0.0"
+    cli-cursor "^1.0.2"
+
+lru-queue@0.1:
+  version "0.1.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/lru-queue/-/lru-queue-0.1.0.tgz#2738bd9f0d3cf4f84490c5736c48699ac632cda3"
+  dependencies:
+    es5-ext "~0.10.2"
+
+memoizee@0.3.x:
+  version "0.3.10"
+  resolved "https://nexus.drivenow.com.au/repository/npm/memoizee/-/memoizee-0.3.10.tgz#4eca0d8aed39ec9d017f4c5c2f2f6432f42e5c8f"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.11"
+    es6-weak-map "~0.1.4"
+    event-emitter "~0.3.4"
+    lru-queue "0.1"
+    next-tick "~0.2.2"
+    timers-ext "0.1"
+
+mimic-fn@^1.0.0:
+  version "1.2.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
 minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://nexus.drivenow.com.au/repository/npm/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
     brace-expansion "^1.1.7"
+
+minimist@^1.2.0:
+  version "1.2.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
+
+moleculer-repl@^0.5.0:
+  version "0.5.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/moleculer-repl/-/moleculer-repl-0.5.0.tgz#b1d36efcb1b960320ad8dcf0c8704f540eddf965"
+  dependencies:
+    chalk "2.4.1"
+    clui "0.3.6"
+    glob "7.1.2"
+    lodash "4.17.10"
+    ora "2.1.0"
+    pretty-bytes "5.1.0"
+    table "4.0.3"
+    tiny-human-time "1.2.0"
+    vorpal "1.12.0"
 
 moleculer@^0.13.1:
   version "0.13.1"
@@ -254,15 +544,76 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
+mute-stream@0.0.5:
+  version "0.0.5"
+  resolved "https://nexus.drivenow.com.au/repository/npm/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
+
+next-tick@1:
+  version "1.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
+
+next-tick@~0.2.2:
+  version "0.2.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/next-tick/-/next-tick-0.2.2.tgz#75da4a927ee5887e39065880065b7336413b310d"
+
+node-localstorage@^0.6.0:
+  version "0.6.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/node-localstorage/-/node-localstorage-0.6.0.tgz#45a0601c6932dfde6644a23361f1be173c75d3af"
+
+number-is-nan@^1.0.0:
+  version "1.0.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+
+object-assign@^4.1.0:
+  version "4.1.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+
 once@^1.3.0:
   version "1.4.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   dependencies:
     wrappy "1"
 
+onetime@^1.0.0:
+  version "1.1.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
+
+onetime@^2.0.0:
+  version "2.0.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/onetime/-/onetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
+  dependencies:
+    mimic-fn "^1.0.0"
+
+ora@2.1.0:
+  version "2.1.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/ora/-/ora-2.1.0.tgz#6caf2830eb924941861ec53a173799e008b51e5b"
+  dependencies:
+    chalk "^2.3.1"
+    cli-cursor "^2.1.0"
+    cli-spinners "^1.1.0"
+    log-symbols "^2.2.0"
+    strip-ansi "^4.0.0"
+    wcwidth "^1.0.1"
+
 path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://nexus.drivenow.com.au/repository/npm/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
+
+pretty-bytes@5.1.0:
+  version "5.1.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/pretty-bytes/-/pretty-bytes-5.1.0.tgz#6237ecfbdc6525beaef4de722cc60a58ae0e6c6d"
+
+punycode@^2.1.0:
+  version "2.1.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+
+readline2@^1.0.1:
+  version "1.0.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/readline2/-/readline2-1.0.1.tgz#41059608ffc154757b715d9989d199ffbf372e35"
+  dependencies:
+    code-point-at "^1.0.0"
+    is-fullwidth-code-point "^1.0.0"
+    mute-stream "0.0.5"
 
 redis-commands@^1.2.0:
   version "1.3.5"
@@ -272,11 +623,144 @@ redis-parser@^2.4.0:
   version "2.6.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/redis-parser/-/redis-parser-2.6.0.tgz#52ed09dacac108f1a631c07e9b69941e7a19504b"
 
+regenerator-runtime@^0.10.5:
+  version "0.10.5"
+  resolved "https://nexus.drivenow.com.au/repository/npm/regenerator-runtime/-/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
+
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+
+restore-cursor@^1.0.1:
+  version "1.0.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/restore-cursor/-/restore-cursor-1.0.1.tgz#34661f46886327fed2991479152252df92daa541"
+  dependencies:
+    exit-hook "^1.0.0"
+    onetime "^1.0.0"
+
+restore-cursor@^2.0.0:
+  version "2.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/restore-cursor/-/restore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
+  dependencies:
+    onetime "^2.0.0"
+    signal-exit "^3.0.2"
+
+run-async@^0.1.0:
+  version "0.1.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/run-async/-/run-async-0.1.0.tgz#c8ad4a5e110661e402a7d21b530e009f25f8e389"
+  dependencies:
+    once "^1.3.0"
+
+rx-lite@^3.1.2:
+  version "3.1.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/rx-lite/-/rx-lite-3.1.2.tgz#19ce502ca572665f3b647b10939f97fd1615f102"
+
+signal-exit@^3.0.2:
+  version "3.0.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
+
+slice-ansi@1.0.0:
+  version "1.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/slice-ansi/-/slice-ansi-1.0.0.tgz#044f1a49d8842ff307aad6b505ed178bd950134d"
+  dependencies:
+    is-fullwidth-code-point "^2.0.0"
+
+string-width@^1.0.1:
+  version "1.0.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
+  dependencies:
+    code-point-at "^1.0.0"
+    is-fullwidth-code-point "^1.0.0"
+    strip-ansi "^3.0.0"
+
+string-width@^2.1.1:
+  version "2.1.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/string-width/-/string-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
+  dependencies:
+    is-fullwidth-code-point "^2.0.0"
+    strip-ansi "^4.0.0"
+
+strip-ansi@^3.0.0, strip-ansi@^3.0.1:
+  version "3.0.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/strip-ansi/-/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
+  dependencies:
+    ansi-regex "^2.0.0"
+
+strip-ansi@^4.0.0:
+  version "4.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/strip-ansi/-/strip-ansi-4.0.0.tgz#a8479022eb1ac368a871389b635262c505ee368f"
+  dependencies:
+    ansi-regex "^3.0.0"
+
+supports-color@^2.0.0:
+  version "2.0.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
+
 supports-color@^5.3.0:
   version "5.4.0"
   resolved "https://nexus.drivenow.com.au/repository/npm/supports-color/-/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
   dependencies:
     has-flag "^3.0.0"
+
+table@4.0.3:
+  version "4.0.3"
+  resolved "https://nexus.drivenow.com.au/repository/npm/table/-/table-4.0.3.tgz#00b5e2b602f1794b9acaf9ca908a76386a7813bc"
+  dependencies:
+    ajv "^6.0.1"
+    ajv-keywords "^3.0.0"
+    chalk "^2.1.0"
+    lodash "^4.17.4"
+    slice-ansi "1.0.0"
+    string-width "^2.1.1"
+
+through@^2.3.6:
+  version "2.3.8"
+  resolved "https://nexus.drivenow.com.au/repository/npm/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
+
+timers-ext@0.1, timers-ext@0.1.x:
+  version "0.1.5"
+  resolved "https://nexus.drivenow.com.au/repository/npm/timers-ext/-/timers-ext-0.1.5.tgz#77147dd4e76b660c2abb8785db96574cbbd12922"
+  dependencies:
+    es5-ext "~0.10.14"
+    next-tick "1"
+
+tiny-human-time@1.2.0:
+  version "1.2.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/tiny-human-time/-/tiny-human-time-1.2.0.tgz#0c4a425940e053e2d31d903d6f03d38cfb977860"
+
+uri-js@^4.2.1:
+  version "4.2.2"
+  resolved "https://nexus.drivenow.com.au/repository/npm/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
+  dependencies:
+    punycode "^2.1.0"
+
+vorpal@1.12.0:
+  version "1.12.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/vorpal/-/vorpal-1.12.0.tgz#4be7b2a4e48f8fcfc9cf3648c419d311c522159d"
+  dependencies:
+    babel-polyfill "^6.3.14"
+    chalk "^1.1.0"
+    in-publish "^2.0.0"
+    inquirer "0.11.0"
+    lodash "^4.5.1"
+    log-update "^1.0.2"
+    minimist "^1.2.0"
+    node-localstorage "^0.6.0"
+    strip-ansi "^3.0.0"
+    wrap-ansi "^2.0.0"
+
+wcwidth@^1.0.1:
+  version "1.0.1"
+  resolved "https://nexus.drivenow.com.au/repository/npm/wcwidth/-/wcwidth-1.0.1.tgz#f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8"
+  dependencies:
+    defaults "^1.0.3"
+
+wrap-ansi@^2.0.0:
+  version "2.1.0"
+  resolved "https://nexus.drivenow.com.au/repository/npm/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
+  dependencies:
+    string-width "^1.0.1"
+    strip-ansi "^3.0.1"
 
 wrappy@1:
   version "1.0.2"
