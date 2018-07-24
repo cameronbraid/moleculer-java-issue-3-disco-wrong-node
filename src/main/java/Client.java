@@ -2,20 +2,14 @@ import java.util.Scanner;
 
 import io.datatree.Tree;
 import services.moleculer.ServiceBroker;
+import services.moleculer.transporter.RedisTransporter;
 import services.moleculer.transporter.TcpTransporter;
 
 public class Client {
 
 	public static void main(String[] args) throws Exception {
-		TcpTransporter transporter = new TcpTransporter();
+		RedisTransporter transporter = new RedisTransporter();
 
-		transporter.setPort(4000);
-
-		transporter.setUrls("127.0.0.1:4001/discovery");
-//		transporter.setUrls("127.0.0.1:4002/service");
-		transporter.setUdpBroadcast(false);
-		transporter.setUseHostname(false);
-		transporter.setPreferHostname(false);
 		ServiceBroker broker = ServiceBroker.builder()
 			.nodeID("client")
 			.transporter(transporter)

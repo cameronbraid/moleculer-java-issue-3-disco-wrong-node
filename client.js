@@ -4,15 +4,7 @@ let broker = new moleculer.ServiceBroker({
     nodeID: `client`,
     logger: console,
     logLevel: process.env.LOGLEVEL || "info",
-    transporter: {
-        type: "TCP",
-        options: {
-            urls: ['localhost:4001/disco'],
-            udpDiscovery: false,
-            port: 4003,
-            useHostname: false,
-        },
-    },
+    transporter: "redis://localhost:6379",
 });
 
 broker.start();
