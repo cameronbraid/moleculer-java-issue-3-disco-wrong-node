@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cameronbraid</groupId>
+	<artifactId>moleculer-java-issue-3-disco-wrong-node</artifactId>
+	<packaging>jar</packaging>
+	<name>moleculer-java-issue-3-disco-wrong-node</name>
+	<version>0.0.1-SNAPSHOT</version>
+	<build>
+		<plugins>
+
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<verbose>false</verbose>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>Client</mainClass>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<dependencies>
+
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.25</version>
+</dependency>
+
+		<dependency>
+			<groupId>com.github.berkesa</groupId>
+			<artifactId>moleculer-java</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.berkesa/datatree-core -->
+		<dependency>
+			<groupId>com.github.berkesa</groupId>
+			<artifactId>datatree-core</artifactId>
+			<version>1.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.berkesa</groupId>
+			<artifactId>datatree-promise</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+
+
+	</dependencies>
+
+</project>

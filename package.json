@@ -1,0 +1,10 @@
+{
+  "name": "moleculer-java-issue-3-disco-wrong-node",
+  "version": "0.0.1",
+  "description": "demonstrate https://github.com/moleculer-java/moleculer-java/issues/3",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "moleculer": "^0.13.1"
+  }
+}
